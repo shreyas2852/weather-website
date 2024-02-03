@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>This is index page</title>
+    <link rel="stylesheet", href="/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p> Here you can see your weather data</p>
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </div>
+    
+    
+</body>
+</html>
